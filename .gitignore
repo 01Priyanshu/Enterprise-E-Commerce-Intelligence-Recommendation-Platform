@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Data files
+data/raw/*
+data/processed/*
+data/features/*
+!data/*/.gitkeep
+
+# Models
+models/**/*.pkl
+models/**/*.h5
+models/**/*.joblib
+models/**/*.pt
+
+# MLflow
+mlflow/mlruns/*
+mlflow/mlartifacts/*
+
+# Environment
+.env
+.env.local
+*.env
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Logs
+*.log
+logs/
+airflow/logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Airflow
+airflow/airflow.db
+airflow/airflow.cfg
+airflow/webserver_config.py
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Docker
+*.pid
